@@ -16,7 +16,7 @@ class EBEarthPositionMapDetailController: UIViewController {
     
     private lazy var centerCoor = CLLocationCoordinate2D.init(latitude: lat, longitude: lon)
     
-    lazy var mapView: MKMapView = {
+    private lazy var mapView: MKMapView = {
         let mapView = MKMapView()
         mapView.centerCoordinate = centerCoor
         let span = MKCoordinateSpan(latitudeDelta: 4, longitudeDelta: 4)
@@ -40,6 +40,7 @@ class EBEarthPositionMapDetailController: UIViewController {
         }
     }
     
+    /// 添加大头针
     private func addAnnotation(){
         let annotation = EBCustomAnnotation.init(coordinate: centerCoor)
         annotation.title = defaultTitle

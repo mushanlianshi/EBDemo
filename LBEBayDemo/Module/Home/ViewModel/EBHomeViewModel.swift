@@ -10,7 +10,7 @@ import BLTSwiftUIKit
 
 class EBHomeViewModel: ZGBaseViewModel {
     
-    var resultModel: EBHomeResultModel?
+    private var resultModel: EBHomeResultModel?
 
     override init() {
         super.init()
