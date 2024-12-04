@@ -1,0 +1,6 @@
+framework module Pods_LBEBayDemo_LBEBayDemoUITests {
+  umbrella header "Pods-LBEBayDemo-LBEBayDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

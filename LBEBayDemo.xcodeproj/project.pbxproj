@@ -7,16 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		40879EEC2D003F3B00635E00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40879EEB2D003F3B00635E00 /* AppDelegate.m */; };
-		40879EEF2D003F3B00635E00 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40879EEE2D003F3B00635E00 /* SceneDelegate.m */; };
-		40879EF22D003F3B00635E00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40879EF12D003F3B00635E00 /* ViewController.m */; };
+		328EDDBD3292E4BEA5128E75 /* Pods_LBEBayDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5401DE4C9BE4E384368192F7 /* Pods_LBEBayDemo.framework */; };
 		40879EF52D003F3B00635E00 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 40879EF42D003F3B00635E00 /* Base */; };
 		40879EF72D003F3D00635E00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40879EF62D003F3D00635E00 /* Assets.xcassets */; };
 		40879EFA2D003F3D00635E00 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 40879EF92D003F3D00635E00 /* Base */; };
-		40879EFD2D003F3D00635E00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40879EFC2D003F3D00635E00 /* main.m */; };
 		40879F072D003F3D00635E00 /* LBEBayDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40879F062D003F3D00635E00 /* LBEBayDemoTests.m */; };
 		40879F112D003F3D00635E00 /* LBEBayDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40879F102D003F3D00635E00 /* LBEBayDemoUITests.m */; };
 		40879F132D003F3D00635E00 /* LBEBayDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40879F122D003F3D00635E00 /* LBEBayDemoUITestsLaunchTests.m */; };
+		40879F302D00403600635E00 /* LBBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 40879F2B2D00403600635E00 /* LBBaseRequest.m */; };
+		40879F312D00403600635E00 /* LBRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 40879F2E2D00403600635E00 /* LBRequestManager.m */; };
+		40879F3C2D00433F00635E00 /* EBHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40879F3B2D00433F00635E00 /* EBHomeViewController.swift */; };
+		40879F452D0043A300635E00 /* UIViewController+ZGList.m in Sources */ = {isa = PBXBuildFile; fileRef = 40879F402D0043A300635E00 /* UIViewController+ZGList.m */; };
+		40879F462D0043A300635E00 /* ZGBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 40879F422D0043A300635E00 /* ZGBaseViewModel.m */; };
+		40879F492D00447000635E00 /* UIViewController+ZGRequestTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 40879F472D00446F00635E00 /* UIViewController+ZGRequestTask.m */; };
+		40879F4C2D00450400635E00 /* NSObject+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 40879F4A2D00450400635E00 /* NSObject+Category.m */; };
+		40879F4E2D00453B00635E00 /* UIViewController+ZGEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40879F4D2D00453B00635E00 /* UIViewController+ZGEmptyView.swift */; };
+		40879F532D00457800635E00 /* ZGEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40879F522D00457800635E00 /* ZGEmptyView.swift */; };
+		40879F562D00469A00635E00 /* LBBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40879F552D00469A00635E00 /* LBBaseView.swift */; };
+		40E4F41F2D004A360027DEBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4F41E2D004A360027DEBC /* AppDelegate.swift */; };
+		40E4F4212D004B2E0027DEBC /* EBHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4F4202D004B2E0027DEBC /* EBHomeViewModel.swift */; };
+		40E4F4242D004BB80027DEBC /* EBHomeListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4F4232D004BB80027DEBC /* EBHomeListRequest.swift */; };
+		40E4F4272D004C2B0027DEBC /* EBHomeResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4F4262D004C2B0027DEBC /* EBHomeResultModel.swift */; };
+		40E4F4292D004E250027DEBC /* EBHomeListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4F4282D004E250027DEBC /* EBHomeListCell.swift */; };
+		40E4F42D2D00602B0027DEBC /* EBEarthPositionMapDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4F42C2D00602B0027DEBC /* EBEarthPositionMapDetailController.swift */; };
+		40E4F4302D0063D50027DEBC /* EBCustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4F42F2D0063D50027DEBC /* EBCustomAnnotation.swift */; };
+		C6993F14F27B8F988E047F05 /* Pods_LBEBayDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA75C7156DBC166DE32C4D16 /* Pods_LBEBayDemoTests.framework */; };
+		D96806F167704CEEC3E660FF /* Pods_LBEBayDemo_LBEBayDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A5302F74E5C204FFECED95 /* Pods_LBEBayDemo_LBEBayDemoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,23 +53,52 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1380C1014A6F913DE8DA667C /* Pods-LBEBayDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBEBayDemo.debug.xcconfig"; path = "Target Support Files/Pods-LBEBayDemo/Pods-LBEBayDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		158DA7F2AE4140D16A92D39B /* Pods-LBEBayDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBEBayDemo.release.xcconfig"; path = "Target Support Files/Pods-LBEBayDemo/Pods-LBEBayDemo.release.xcconfig"; sourceTree = "<group>"; };
+		397B85F493205EB7F4B198BC /* Pods-LBEBayDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBEBayDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-LBEBayDemoTests/Pods-LBEBayDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		40879EE72D003F3B00635E00 /* LBEBayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBEBayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		40879EEA2D003F3B00635E00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		40879EEB2D003F3B00635E00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		40879EED2D003F3B00635E00 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		40879EEE2D003F3B00635E00 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		40879EF02D003F3B00635E00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		40879EF12D003F3B00635E00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		40879EF42D003F3B00635E00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40879EF62D003F3D00635E00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40879EF92D003F3D00635E00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40879EFB2D003F3D00635E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		40879EFC2D003F3D00635E00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		40879F022D003F3D00635E00 /* LBEBayDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBEBayDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40879F062D003F3D00635E00 /* LBEBayDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBEBayDemoTests.m; sourceTree = "<group>"; };
 		40879F0C2D003F3D00635E00 /* LBEBayDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBEBayDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40879F102D003F3D00635E00 /* LBEBayDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBEBayDemoUITests.m; sourceTree = "<group>"; };
 		40879F122D003F3D00635E00 /* LBEBayDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBEBayDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		40879F2A2D00403600635E00 /* LBBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBaseRequest.h; sourceTree = "<group>"; };
+		40879F2B2D00403600635E00 /* LBBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBaseRequest.m; sourceTree = "<group>"; };
+		40879F2C2D00403600635E00 /* LBRequestDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBRequestDefines.h; sourceTree = "<group>"; };
+		40879F2D2D00403600635E00 /* LBRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBRequestManager.h; sourceTree = "<group>"; };
+		40879F2E2D00403600635E00 /* LBRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBRequestManager.m; sourceTree = "<group>"; };
+		40879F332D0040E700635E00 /* LBUICommonDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBUICommonDefines.h; sourceTree = "<group>"; };
+		40879F3A2D00433F00635E00 /* LBEBayDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LBEBayDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		40879F3B2D00433F00635E00 /* EBHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBHomeViewController.swift; sourceTree = "<group>"; };
+		40879F3F2D0043A300635E00 /* UIViewController+ZGList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZGList.h"; sourceTree = "<group>"; };
+		40879F402D0043A300635E00 /* UIViewController+ZGList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZGList.m"; sourceTree = "<group>"; };
+		40879F412D0043A300635E00 /* ZGBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGBaseViewModel.h; sourceTree = "<group>"; };
+		40879F422D0043A300635E00 /* ZGBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGBaseViewModel.m; sourceTree = "<group>"; };
+		40879F432D0043A300635E00 /* ZGLoadDataAnimatingProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGLoadDataAnimatingProtocol.h; sourceTree = "<group>"; };
+		40879F472D00446F00635E00 /* UIViewController+ZGRequestTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZGRequestTask.m"; sourceTree = "<group>"; };
+		40879F482D00446F00635E00 /* UIViewController+ZGRequestTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZGRequestTask.h"; sourceTree = "<group>"; };
+		40879F4A2D00450400635E00 /* NSObject+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Category.m"; sourceTree = "<group>"; };
+		40879F4B2D00450400635E00 /* NSObject+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Category.h"; sourceTree = "<group>"; };
+		40879F4D2D00453B00635E00 /* UIViewController+ZGEmptyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+ZGEmptyView.swift"; sourceTree = "<group>"; };
+		40879F522D00457800635E00 /* ZGEmptyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZGEmptyView.swift; sourceTree = "<group>"; };
+		40879F552D00469A00635E00 /* LBBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBBaseView.swift; sourceTree = "<group>"; };
+		40E4F41E2D004A360027DEBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40E4F4202D004B2E0027DEBC /* EBHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBHomeViewModel.swift; sourceTree = "<group>"; };
+		40E4F4232D004BB80027DEBC /* EBHomeListRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBHomeListRequest.swift; sourceTree = "<group>"; };
+		40E4F4262D004C2B0027DEBC /* EBHomeResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBHomeResultModel.swift; sourceTree = "<group>"; };
+		40E4F4282D004E250027DEBC /* EBHomeListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBHomeListCell.swift; sourceTree = "<group>"; };
+		40E4F42C2D00602B0027DEBC /* EBEarthPositionMapDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBEarthPositionMapDetailController.swift; sourceTree = "<group>"; };
+		40E4F42F2D0063D50027DEBC /* EBCustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBCustomAnnotation.swift; sourceTree = "<group>"; };
+		5401DE4C9BE4E384368192F7 /* Pods_LBEBayDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBEBayDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B21BB52C718DD12D8AF8C3 /* Pods-LBEBayDemo-LBEBayDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBEBayDemo-LBEBayDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-LBEBayDemo-LBEBayDemoUITests/Pods-LBEBayDemo-LBEBayDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		83A5302F74E5C204FFECED95 /* Pods_LBEBayDemo_LBEBayDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBEBayDemo_LBEBayDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9548DC50FB0F4C00B9451D72 /* Pods-LBEBayDemo-LBEBayDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBEBayDemo-LBEBayDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-LBEBayDemo-LBEBayDemoUITests/Pods-LBEBayDemo-LBEBayDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA75C7156DBC166DE32C4D16 /* Pods_LBEBayDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBEBayDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2251A8789257D6D6E3C3660 /* Pods-LBEBayDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBEBayDemoTests.release.xcconfig"; path = "Target Support Files/Pods-LBEBayDemoTests/Pods-LBEBayDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				328EDDBD3292E4BEA5128E75 /* Pods_LBEBayDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6993F14F27B8F988E047F05 /* Pods_LBEBayDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D96806F167704CEEC3E660FF /* Pods_LBEBayDemo_LBEBayDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +136,8 @@
 				40879F052D003F3D00635E00 /* LBEBayDemoTests */,
 				40879F0F2D003F3D00635E00 /* LBEBayDemoUITests */,
 				40879EE82D003F3B00635E00 /* Products */,
+				951333F3A1A81D44460115F0 /* Pods */,
+				E69D4EF0A3B6DA5FC606502A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,17 +154,16 @@
 		40879EE92D003F3B00635E00 /* LBEBayDemo */ = {
 			isa = PBXGroup;
 			children = (
-				40879EEA2D003F3B00635E00 /* AppDelegate.h */,
-				40879EEB2D003F3B00635E00 /* AppDelegate.m */,
-				40879EED2D003F3B00635E00 /* SceneDelegate.h */,
-				40879EEE2D003F3B00635E00 /* SceneDelegate.m */,
-				40879EF02D003F3B00635E00 /* ViewController.h */,
-				40879EF12D003F3B00635E00 /* ViewController.m */,
+				40E4F4312D0069E60027DEBC /* CommonService */,
+				40879F3E2D00439800635E00 /* Base */,
+				40879F3D2D00438C00635E00 /* Module */,
+				40879F322D0040DA00635E00 /* Defines */,
+				40879F3A2D00433F00635E00 /* LBEBayDemo-Bridging-Header.h */,
 				40879EF32D003F3B00635E00 /* Main.storyboard */,
 				40879EF62D003F3D00635E00 /* Assets.xcassets */,
 				40879EF82D003F3D00635E00 /* LaunchScreen.storyboard */,
 				40879EFB2D003F3D00635E00 /* Info.plist */,
-				40879EFC2D003F3D00635E00 /* main.m */,
+				40E4F41E2D004A360027DEBC /* AppDelegate.swift */,
 			);
 			path = LBEBayDemo;
 			sourceTree = "<group>";
@@ -136,6 +185,194 @@
 			path = LBEBayDemoUITests;
 			sourceTree = "<group>";
 		};
+		40879F2F2D00403600635E00 /* RequestService */ = {
+			isa = PBXGroup;
+			children = (
+				40879F2A2D00403600635E00 /* LBBaseRequest.h */,
+				40879F2B2D00403600635E00 /* LBBaseRequest.m */,
+				40879F2C2D00403600635E00 /* LBRequestDefines.h */,
+				40879F2D2D00403600635E00 /* LBRequestManager.h */,
+				40879F2E2D00403600635E00 /* LBRequestManager.m */,
+			);
+			path = RequestService;
+			sourceTree = "<group>";
+		};
+		40879F322D0040DA00635E00 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				40879F332D0040E700635E00 /* LBUICommonDefines.h */,
+			);
+			path = Defines;
+			sourceTree = "<group>";
+		};
+		40879F342D0042C000635E00 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				40E4F4282D004E250027DEBC /* EBHomeListCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		40879F352D0042C400635E00 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				40E4F4202D004B2E0027DEBC /* EBHomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		40879F362D0042E200635E00 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				40879F3B2D00433F00635E00 /* EBHomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		40879F3D2D00438C00635E00 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				40E4F42B2D0060070027DEBC /* MapDetail */,
+				40E4F42A2D005FFD0027DEBC /* Home */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		40879F3E2D00439800635E00 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				40879F542D00468B00635E00 /* BaseView */,
+				40879F4F2D00454000635E00 /* Category */,
+				40879F442D0043A300635E00 /* ListController */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		40879F442D0043A300635E00 /* ListController */ = {
+			isa = PBXGroup;
+			children = (
+				40879F482D00446F00635E00 /* UIViewController+ZGRequestTask.h */,
+				40879F472D00446F00635E00 /* UIViewController+ZGRequestTask.m */,
+				40879F3F2D0043A300635E00 /* UIViewController+ZGList.h */,
+				40879F402D0043A300635E00 /* UIViewController+ZGList.m */,
+				40879F412D0043A300635E00 /* ZGBaseViewModel.h */,
+				40879F422D0043A300635E00 /* ZGBaseViewModel.m */,
+				40879F432D0043A300635E00 /* ZGLoadDataAnimatingProtocol.h */,
+			);
+			path = ListController;
+			sourceTree = "<group>";
+		};
+		40879F4F2D00454000635E00 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				40879F522D00457800635E00 /* ZGEmptyView.swift */,
+				40879F512D00455000635E00 /* OCCategory */,
+				40879F502D00454900635E00 /* Swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		40879F502D00454900635E00 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				40879F4D2D00453B00635E00 /* UIViewController+ZGEmptyView.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		40879F512D00455000635E00 /* OCCategory */ = {
+			isa = PBXGroup;
+			children = (
+				40879F4B2D00450400635E00 /* NSObject+Category.h */,
+				40879F4A2D00450400635E00 /* NSObject+Category.m */,
+			);
+			path = OCCategory;
+			sourceTree = "<group>";
+		};
+		40879F542D00468B00635E00 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				40879F552D00469A00635E00 /* LBBaseView.swift */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		40E4F4222D004BA90027DEBC /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				40E4F4232D004BB80027DEBC /* EBHomeListRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		40E4F4252D004C1C0027DEBC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				40E4F4262D004C2B0027DEBC /* EBHomeResultModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		40E4F42A2D005FFD0027DEBC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				40E4F4252D004C1C0027DEBC /* Model */,
+				40E4F4222D004BA90027DEBC /* Request */,
+				40879F362D0042E200635E00 /* Controller */,
+				40879F352D0042C400635E00 /* ViewModel */,
+				40879F342D0042C000635E00 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		40E4F42B2D0060070027DEBC /* MapDetail */ = {
+			isa = PBXGroup;
+			children = (
+				40E4F42E2D0063B70027DEBC /* Model */,
+				40E4F42C2D00602B0027DEBC /* EBEarthPositionMapDetailController.swift */,
+			);
+			path = MapDetail;
+			sourceTree = "<group>";
+		};
+		40E4F42E2D0063B70027DEBC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				40E4F42F2D0063D50027DEBC /* EBCustomAnnotation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		40E4F4312D0069E60027DEBC /* CommonService */ = {
+			isa = PBXGroup;
+			children = (
+				40879F2F2D00403600635E00 /* RequestService */,
+			);
+			path = CommonService;
+			sourceTree = "<group>";
+		};
+		951333F3A1A81D44460115F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1380C1014A6F913DE8DA667C /* Pods-LBEBayDemo.debug.xcconfig */,
+				158DA7F2AE4140D16A92D39B /* Pods-LBEBayDemo.release.xcconfig */,
+				9548DC50FB0F4C00B9451D72 /* Pods-LBEBayDemo-LBEBayDemoUITests.debug.xcconfig */,
+				81B21BB52C718DD12D8AF8C3 /* Pods-LBEBayDemo-LBEBayDemoUITests.release.xcconfig */,
+				397B85F493205EB7F4B198BC /* Pods-LBEBayDemoTests.debug.xcconfig */,
+				F2251A8789257D6D6E3C3660 /* Pods-LBEBayDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E69D4EF0A3B6DA5FC606502A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5401DE4C9BE4E384368192F7 /* Pods_LBEBayDemo.framework */,
+				83A5302F74E5C204FFECED95 /* Pods_LBEBayDemo_LBEBayDemoUITests.framework */,
+				EA75C7156DBC166DE32C4D16 /* Pods_LBEBayDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +380,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40879F162D003F3D00635E00 /* Build configuration list for PBXNativeTarget "LBEBayDemo" */;
 			buildPhases = (
+				CEFA60AACBDE367D21379259 /* [CP] Check Pods Manifest.lock */,
 				40879EE32D003F3B00635E00 /* Sources */,
 				40879EE42D003F3B00635E00 /* Frameworks */,
 				40879EE52D003F3B00635E00 /* Resources */,
+				EF4024AEB623D0DAFD550B36 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +399,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40879F192D003F3D00635E00 /* Build configuration list for PBXNativeTarget "LBEBayDemoTests" */;
 			buildPhases = (
+				568D07FCEB4565E484D3491C /* [CP] Check Pods Manifest.lock */,
 				40879EFE2D003F3D00635E00 /* Sources */,
 				40879EFF2D003F3D00635E00 /* Frameworks */,
 				40879F002D003F3D00635E00 /* Resources */,
@@ -178,9 +418,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40879F1C2D003F3D00635E00 /* Build configuration list for PBXNativeTarget "LBEBayDemoUITests" */;
 			buildPhases = (
+				0F926DCE1CFDFE92B1463B70 /* [CP] Check Pods Manifest.lock */,
 				40879F082D003F3D00635E00 /* Sources */,
 				40879F092D003F3D00635E00 /* Frameworks */,
 				40879F0A2D003F3D00635E00 /* Resources */,
+				7E84E068147438C3B0ABCF5D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -203,6 +445,7 @@
 				TargetAttributes = {
 					40879EE62D003F3B00635E00 = {
 						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
 					};
 					40879F012D003F3D00635E00 = {
 						CreatedOnToolsVersion = 15.3;
@@ -261,15 +504,131 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F926DCE1CFDFE92B1463B70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LBEBayDemo-LBEBayDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		568D07FCEB4565E484D3491C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LBEBayDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E84E068147438C3B0ABCF5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LBEBayDemo-LBEBayDemoUITests/Pods-LBEBayDemo-LBEBayDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LBEBayDemo-LBEBayDemoUITests/Pods-LBEBayDemo-LBEBayDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LBEBayDemo-LBEBayDemoUITests/Pods-LBEBayDemo-LBEBayDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEFA60AACBDE367D21379259 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LBEBayDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF4024AEB623D0DAFD550B36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LBEBayDemo/Pods-LBEBayDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LBEBayDemo/Pods-LBEBayDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LBEBayDemo/Pods-LBEBayDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		40879EE32D003F3B00635E00 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40879EF22D003F3B00635E00 /* ViewController.m in Sources */,
-				40879EEC2D003F3B00635E00 /* AppDelegate.m in Sources */,
-				40879EFD2D003F3D00635E00 /* main.m in Sources */,
-				40879EEF2D003F3B00635E00 /* SceneDelegate.m in Sources */,
+				40E4F41F2D004A360027DEBC /* AppDelegate.swift in Sources */,
+				40879F492D00447000635E00 /* UIViewController+ZGRequestTask.m in Sources */,
+				40879F3C2D00433F00635E00 /* EBHomeViewController.swift in Sources */,
+				40879F302D00403600635E00 /* LBBaseRequest.m in Sources */,
+				40879F4C2D00450400635E00 /* NSObject+Category.m in Sources */,
+				40879F312D00403600635E00 /* LBRequestManager.m in Sources */,
+				40879F562D00469A00635E00 /* LBBaseView.swift in Sources */,
+				40E4F4212D004B2E0027DEBC /* EBHomeViewModel.swift in Sources */,
+				40E4F42D2D00602B0027DEBC /* EBEarthPositionMapDetailController.swift in Sources */,
+				40879F462D0043A300635E00 /* ZGBaseViewModel.m in Sources */,
+				40879F4E2D00453B00635E00 /* UIViewController+ZGEmptyView.swift in Sources */,
+				40879F532D00457800635E00 /* ZGEmptyView.swift in Sources */,
+				40E4F4292D004E250027DEBC /* EBHomeListCell.swift in Sources */,
+				40E4F4302D0063D50027DEBC /* EBCustomAnnotation.swift in Sources */,
+				40E4F4242D004BB80027DEBC /* EBHomeListRequest.swift in Sources */,
+				40879F452D0043A300635E00 /* UIViewController+ZGList.m in Sources */,
+				40E4F4272D004C2B0027DEBC /* EBHomeResultModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,11 +802,15 @@
 		};
 		40879F172D003F3D00635E00 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1380C1014A6F913DE8DA667C /* Pods-LBEBayDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4HBGL9D5HM;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LBEBayDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -455,25 +818,34 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lb.letcode.LBEBayDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lb.eBayDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "LBEBayDemo/LBEBayDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		40879F182D003F3D00635E00 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 158DA7F2AE4140D16A92D39B /* Pods-LBEBayDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4HBGL9D5HM;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LBEBayDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -481,21 +853,27 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lb.letcode.LBEBayDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lb.eBayDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "LBEBayDemo/LBEBayDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		40879F1A2D003F3D00635E00 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 397B85F493205EB7F4B198BC /* Pods-LBEBayDemoTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -512,7 +890,9 @@
 		};
 		40879F1B2D003F3D00635E00 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2251A8789257D6D6E3C3660 /* Pods-LBEBayDemoTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -529,7 +909,9 @@
 		};
 		40879F1D2D003F3D00635E00 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9548DC50FB0F4C00B9451D72 /* Pods-LBEBayDemo-LBEBayDemoUITests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -544,7 +926,9 @@
 		};
 		40879F1E2D003F3D00635E00 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81B21BB52C718DD12D8AF8C3 /* Pods-LBEBayDemo-LBEBayDemoUITests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;

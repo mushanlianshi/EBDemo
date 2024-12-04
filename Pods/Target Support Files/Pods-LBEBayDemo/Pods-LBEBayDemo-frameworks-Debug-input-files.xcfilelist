@@ -1,0 +1,21 @@
+${PODS_ROOT}/Target Support Files/Pods-LBEBayDemo/Pods-LBEBayDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/BLTBasicUIKit/BLTBasicUIKit.framework
+${BUILT_PRODUCTS_DIR}/BLTPublicModules/BLTPublicModules.framework
+${BUILT_PRODUCTS_DIR}/BLTSwiftUIKit/BLTSwiftUIKit.framework
+${BUILT_PRODUCTS_DIR}/BLTUIKitProject/BLTUIKitProject.framework
+${BUILT_PRODUCTS_DIR}/GKPhotoBrowser/GKPhotoBrowser.framework
+${BUILT_PRODUCTS_DIR}/GKSliderView/GKSliderView.framework
+${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework
+${BUILT_PRODUCTS_DIR}/IGListDiffKit/IGListDiffKit.framework
+${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework
+${BUILT_PRODUCTS_DIR}/JXMarqueeView/JXMarqueeView.framework
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
+${BUILT_PRODUCTS_DIR}/LookinServer/LookinServer.framework
+${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework
+${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework
+${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework
